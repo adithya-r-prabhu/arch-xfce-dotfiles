@@ -1,0 +1,7 @@
+ncdu / --exclude /media --exclude /run/timeshift
+sudo pacman -Rns $(pacman -Qdtq)
+❯ sudo rm --force --verbose '/var/lib/pacman/db.lck'
+❯ yay -Scc
+❯ pacman -Qm
+❯ sudo pacman -Rns $(pacman -Qdtq)
+  yay -Qm
